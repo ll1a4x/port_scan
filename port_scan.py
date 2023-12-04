@@ -33,7 +33,7 @@ def getInputs():
 	if len(sys.argv) != 3:
 		print("USAGE: ./port_scan.py TARGET_HOST THREAD_NUM")
 		print("Recommended THREAD_NUM: 200")
-		exit()
+		sys.exit()
 		
 	target = sys.argv[1]
 	thread_num = int(sys.argv[2])
